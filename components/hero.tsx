@@ -10,11 +10,11 @@ export function Hero() {
           {/* Left content */}
           <div className="text-left">
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Creamos marcas listas para vender en eCommerce.
+              Creamos marcas listas para vender en Amazon y Mercadolibre.
             </h1>
             
             <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
-              Desde la idea hasta las primeras ventas. Desarrollamos productos, construimos tu marca y lanzamos tu negocio en marketplaces como Amazon, Mercado Libre y Walmart.
+              Desde la idea hasta las primeras ventas. Desarrollamos productos, construimos tu marca y lanzamos tu negocio en marketplaces como Amazon, Mercado Libre, Walmart y tu propia tienda online.
             </p>
             
             <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
