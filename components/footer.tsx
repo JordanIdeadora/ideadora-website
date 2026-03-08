@@ -12,7 +12,7 @@ export function Footer() {
               alt="Ideadora"
               width={220}
               height={55}
-              className="h-20 w-auto"
+              className="h-10 md:h-12 w-auto"
             />
 
             <div className="flex items-center gap-4">
