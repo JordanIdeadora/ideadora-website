@@ -66,9 +66,18 @@ export function Footer() {
         <div className="mt-10 border-t border-border pt-6">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Ideadora. Todos los derechos reservados.
-          </p>
-        </div>
-      </div>
-    </footer>
-  )
-}
+         <div className="mt-10 border-t border-border pt-6">
+  <p className="text-sm text-muted-foreground">
+    © {new Date().getFullYear()} Ideadora. Todos los derechos reservados.
+  </p>
+
+  <div className="mt-2 flex gap-4 text-sm text-muted-foreground">
+    <a href="/privacidad" className="hover:text-foreground">
+      Aviso de privacidad
+    </a>
+
+    <a href="/terminos" className="hover:text-foreground">
+      Términos de uso
+    </a>
+  </div>
+</div>
