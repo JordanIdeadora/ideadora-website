@@ -24,10 +24,21 @@ export function CTA() {
     <ArrowRight className="h-4 w-4" />
   </a>
 </Button>
-            <Button size="lg" variant="outline" className="w-full gap-2 sm:w-auto border-background/20 bg-transparent text-background hover:bg-background/10 hover:text-background">
-              <MessageCircle className="h-4 w-4" />
-              Hablar con Ideadora
-            </Button>
+           <Button 
+  size="lg" 
+  variant="outline" 
+  className="w-full gap-2 sm:w-auto border-background/20 bg-transparent text-background hover:bg-background/10 hover:text-background"
+  asChild
+>
+  <a
+    href="https://wa.me/525660498508?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Ideadora%20y%20me%20interesa%20crear%20mi%20marca.%20%C2%BFPodemos%20hablar%3F"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <MessageCircle className="h-4 w-4" />
+    Hablar con Ideadora
+  </a>
+</Button>
           </div>
         </div>
       </div>
