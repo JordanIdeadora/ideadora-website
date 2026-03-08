@@ -42,6 +42,7 @@ twitter: {
   card: 'summary_large_image',
   images: ['/og-image.png'],
 },
+  }
 export default function RootLayout({
   children,
 }: Readonly<{
