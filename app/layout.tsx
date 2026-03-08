@@ -8,8 +8,10 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Ideadora | Brand-as-a-Service para Marketplaces en México',
-  description: 'Ideadora construye tu marca, tus productos y tus tiendas en línea en marketplaces como Amazon, Mercado Libre y Walmart Marketplace. Todo hecho para ti.',
+  description:
+    'Ideadora construye tu marca, tus productos y tus tiendas en línea en marketplaces como Amazon, Mercado Libre y Walmart Marketplace. Todo hecho para ti.',
   generator: 'Ideadora',
+
   icons: {
     icon: [
       {
@@ -27,33 +29,20 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-},
-openGraph: {
-  images: [
-    {
-      url: '/og-image.png',
-      width: 1200,
-      height: 630,
-      alt: 'Ideadora',
-    },
-  ],
-},
 
-twitter: {
-  card: 'summary_large_image',
-  images: ['/og-image.png'],
-},
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
-  return (
-    <html lang="es">
-      <body className="font-sans antialiased">
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  )
+  openGraph: {
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Ideadora',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.png'],
+  },
 }
