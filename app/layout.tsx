@@ -3,15 +3,14 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const geist = Geist({ subsets: ['latin'] })
+const geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Ideadora | Brand-as-a-Service para Marketplaces en México',
   description:
     'Ideadora construye tu marca, tus productos y tus tiendas en línea en marketplaces como Amazon, Mercado Libre y Walmart Marketplace. Todo hecho para ti.',
   generator: 'Ideadora',
-
   icons: {
     icon: [
       {
@@ -29,7 +28,6 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-
   openGraph: {
     images: [
       {
@@ -40,9 +38,23 @@ export const metadata: Metadata = {
       },
     ],
   },
-
   twitter: {
     card: 'summary_large_image',
     images: ['/og-image.png'],
   },
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="es">
+      <body className={`${geist.className} ${geistMono.className} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  )
 }
