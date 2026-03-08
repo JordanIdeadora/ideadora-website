@@ -14,7 +14,7 @@ const problems = [
   {
     icon: Factory,
     title: "Encontrar proveedores",
-    description: "Encontrar proveedores confiables y asegurar calidad de la producción",
+    description: "Encontrar proveedores confiables y asegurar calidad de la producción.",
   },
   {
     icon: ListChecks,
@@ -29,7 +29,7 @@ const problems = [
   {
     icon: Truck,
     title: "Logística y operaciones",
-    description: "Gestionar inventario, envíos y cumplimiento a escala.",
+    description: "Gestionar inventario, envíos y cumplimiento para escalar.",
   },
 ]
 
@@ -66,7 +66,7 @@ export function Problem() {
 
         <p className="mt-12 text-center text-base text-muted-foreground">
           Aquí es donde entra Ideadora. {" "}
-          <span className="font-medium text-foreground"> Nosotros nos encargamos de todo el proceso para que puedas lanzar tu marca sin quedarte atrapado en el camino.</span>
+          <span className="font-medium text-foreground"> Nos encargamos de todo el proceso para que puedas lanzar tu marca sin quedarte atrapado en el camino.</span>
         </p>
       </div>
     </section>
