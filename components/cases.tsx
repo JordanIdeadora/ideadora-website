@@ -10,20 +10,22 @@ const cases = [
     logo: "/images/puppy-logo.jpeg",
   },
   {
-    name: "Beauty Brand",
-    category: "Skincare",
-    description: "Marca de skincare creada para ecommerce y venta en marketplaces.",
+    name: "Woof Woof!",
+    category: "Snacks naturales para mascotas",
+    description: "Snacks deshidratados para mascotas desarrollados desde la idea hasta su lanzamiento en marketplaces.",
     color: "from-pink-500/20 to-rose-500/20",
     iconBg: "bg-pink-500/10",
     iconColor: "text-pink-600",
+    logo: "/images/woofwoof-logo.png",
   },
   {
-    name: "Consumer Brand",
-    category: "Productos de consumo",
-    description: "Marca de productos de consumo diseñada para escalar en marketplaces.",
+    name: "IdeaStore",
+    category: "Importación y eCommerce",
+    description: "Seleccionamos el producto, lo importamos desde China y lo lanzamos en marketplaces en México.",
     color: "from-primary/20 to-accent/20",
     iconBg: "bg-primary/10",
     iconColor: "text-primary",
+    logo: "/images/ideastore-logo.png",
   },
 ]
 
