@@ -19,7 +19,7 @@ const cases = [
     logo: "/images/woofwoof-logo.png",
   },
   {
-    name: "IdeaStore",
+    name: "Ideastore",
     category: "Importación y eCommerce",
     description: "Seleccionamos el producto, lo importamos desde China y lo lanzamos en marketplaces en México.",
     color: "from-primary/20 to-accent/20",
