@@ -32,8 +32,8 @@ export function Header() {
           <a href="#proceso" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             Proceso
           </a>
-          <a href="#precio" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Precio
+          <a href="#cases" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            Casos de Éxito
           </a>
         </nav>
 
