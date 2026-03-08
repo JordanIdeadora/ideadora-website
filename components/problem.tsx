@@ -4,7 +4,7 @@ const problems = [
   {
     icon: Package,
     title: "Elegir el producto correcto",
-    description: "Investigación infinita sin un camino claro hacia un producto ganador que se venda.",
+    description: "Encontrar un producto ganador entre miles de opciones que realmente pueda venderse y generar ganancias.",
   },
   {
     icon: Palette,
@@ -13,18 +13,18 @@ const problems = [
   },
   {
     icon: Factory,
-    title: "Manufactura",
-    description: "Encontrar proveedores confiables y gestionar la calidad de producción.",
+    title: "Encontrar proveedores",
+    description: "Encontrar proveedores confiables y asegurar calidad de la producción",
   },
   {
     icon: ListChecks,
-    title: "Listar productos correctamente",
+    title: "Crear listados que vendan",
     description: "Optimizar listados para algoritmos de marketplace y conversiones.",
   },
   {
     icon: BarChart3,
     title: "Estrategia de marketplace",
-    description: "Entender las reglas, tarifas y sistemas de ranking de cada plataforma.",
+    description: "Entender las reglas, tarifas, competencia y posicionamiento de cada plataforma.",
   },
   {
     icon: Truck,
@@ -45,7 +45,7 @@ export function Problem() {
             La mayoría de personas quieren vender en línea. Muy pocos saben cómo empezar.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Los emprendedores se quedan atrapados en un laberinto de decisiones antes de lanzar. ¿Te suena familiar?
+            Antes de lanzar una marca, los emprendedores tienen que resolver decisiones como estas:
           </p>
         </div>
 
@@ -65,8 +65,8 @@ export function Problem() {
         </div>
 
         <p className="mt-12 text-center text-base text-muted-foreground">
-          La mayoría de emprendedores se quedan atrapados antes de lanzar.{" "}
-          <span className="font-medium text-foreground">Nos aseguraremos de que no lo hagas.</span>
+          Aquí es donde entra Ideadora. {" "}
+          <span className="font-medium text-foreground"> Nosotros nos encargamos de todo el proceso para que puedas lanzar tu marca sin quedarte atrapado en el camino.</span>
         </p>
       </div>
     </section>
