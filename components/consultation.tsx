@@ -3,7 +3,7 @@ import { Calendar, MessageCircle } from "lucide-react"
 
 export function Consultation() {
   return (
-    <section id="consulta" className="py-20 sm:py-28">
+    <section id="consulta" className="py-12 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <div className="rounded-3xl border border-border bg-card p-8 sm:p-12 text-center">
@@ -11,8 +11,8 @@ export function Consultation() {
               <Calendar className="h-8 w-8 text-primary" />
             </div>
             
-            <h2 className="mt-6 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Hablemos de tu proyecto.
+            <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Descubre si tu idea puede convertirse en una marca rentable.
             </h2>
             
             <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
