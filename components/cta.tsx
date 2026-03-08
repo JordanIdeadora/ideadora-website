@@ -14,10 +14,16 @@ export function CTA() {
           </p>
           
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" variant="secondary" className="w-full gap-2 sm:w-auto">
-              Agendar asesoría
-              <ArrowRight className="h-4 w-4" />
-            </Button>
+           <Button size="lg" variant="secondary" className="w-full gap-2 sm:w-auto" asChild>
+  <a
+    href="https://calendly.com/ventas-ideadora/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Agendar asesoría
+    <ArrowRight className="h-4 w-4" />
+  </a>
+</Button>
             <Button size="lg" variant="outline" className="w-full gap-2 sm:w-auto border-background/20 bg-transparent text-background hover:bg-background/10 hover:text-background">
               <MessageCircle className="h-4 w-4" />
               Hablar con Ideadora
