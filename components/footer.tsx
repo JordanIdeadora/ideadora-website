@@ -6,13 +6,12 @@ export function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
-
           <div className="flex flex-col gap-4">
             <Image
               src="/images/ideadora-logo.png"
               alt="Ideadora"
-              width={260}
-              height={65}
+              width={220}
+              height={55}
               className="h-20 w-auto"
             />
 
@@ -45,7 +44,6 @@ export function Footer() {
             </h3>
 
             <div className="mt-4 flex flex-col gap-3 text-sm leading-6 text-muted-foreground">
-
               <a
                 href="https://wa.me/525660498508?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Ideadora%20y%20me%20interesa%20crear%20mi%20marca.%20%C2%BFPodemos%20hablar%3F"
                 target="_blank"
@@ -58,7 +56,6 @@ export function Footer() {
               <p>
                 Avenida Homero 1425, Oficina 105, 11510 Miguel Hidalgo, Ciudad de México, México
               </p>
-
             </div>
           </div>
         </div>
@@ -66,18 +63,19 @@ export function Footer() {
         <div className="mt-10 border-t border-border pt-6">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Ideadora. Todos los derechos reservados.
-         <div className="mt-10 border-t border-border pt-6">
-  <p className="text-sm text-muted-foreground">
-    © {new Date().getFullYear()} Ideadora. Todos los derechos reservados.
-  </p>
+          </p>
 
-  <div className="mt-2 flex gap-4 text-sm text-muted-foreground">
-    <a href="/privacidad" className="hover:text-foreground">
-      Aviso de privacidad
-    </a>
+          <div className="mt-2 flex gap-4 text-sm text-muted-foreground">
+            <a href="/privacidad" className="hover:text-foreground">
+              Aviso de privacidad
+            </a>
 
-    <a href="/terminos" className="hover:text-foreground">
-      Términos de uso
-    </a>
-  </div>
-</div>
+            <a href="/terminos" className="hover:text-foreground">
+              Términos de uso
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
