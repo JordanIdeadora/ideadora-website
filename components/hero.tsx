@@ -18,14 +18,36 @@ export function Hero() {
             </p>
             
             <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
-              <Button size="lg" className="w-full gap-2 sm:w-auto">
-                Comienza tu marca
-                <ArrowRight className="h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline" className="w-full gap-2 sm:w-auto">
-                <Play className="h-4 w-4" />
-                Agendar llamada estratégica
-              </Button>
+              <Button
+  size="lg"
+  className="w-full gap-2 sm:w-auto"
+  asChild
+>
+  <a
+    href="https://wa.me/525660498508?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Ideadora%20y%20me%20interesa%20crear%20mi%20marca.%20%C2%BFPodemos%20hablar%3F"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Comienza tu marca
+    <ArrowRight className="h-4 w-4" />
+  </a>
+</Button>
+
+<Button
+  size="lg"
+  variant="outline"
+  className="w-full gap-2 sm:w-auto"
+  asChild
+>
+  <a
+    href="https://calendly.com/ventas-ideadora/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Play className="h-4 w-4" />
+    Agendar llamada estratégica
+  </a>
+</Button>
             </div>
           </div>
 
