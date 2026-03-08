@@ -11,9 +11,9 @@ export function Footer() {
             <Image
               src="/images/ideadora-logo.png"
               alt="Ideadora"
-              width={220}
-              height={55}
-              className="h-12 w-auto"
+              width={260}
+              height={65}
+              className="h-20 w-auto"
             />
 
             <div className="flex items-center gap-4">
