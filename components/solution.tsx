@@ -35,7 +35,7 @@ export function Solution() {
               Programa de Lanzamiento
             </p>
             <h3 className="mt-2 text-2xl font-bold text-foreground">
-              Todo lo que necesitas para lanzar
+              Te entregamos todo lo que necesitas para vender
             </h3>
 
             <ul className="mt-8 space-y-4">
