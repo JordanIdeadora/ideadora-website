@@ -17,7 +17,7 @@ export function Header() {
             alt="Ideadora"
             width={240}
             height={60}
-            className="h-14 w-auto sm:h-16"
+            className="h-16 w-auto sm:h-20"
             priority
           />
         </div>
