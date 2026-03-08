@@ -4,7 +4,7 @@ const problems = [
   {
     icon: Package,
     title: "Elegir el producto correcto",
-    description: "Encontrar un producto ganador entre miles de opciones que realmente pueda venderse y generar ganancias.",
+    description: "Encontrar un producto entre miles de opciones que realmente pueda venderse y generar ganancias.",
   },
   {
     icon: Palette,
