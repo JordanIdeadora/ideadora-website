@@ -28,7 +28,21 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
 }
+openGraph: {
+  images: [
+    {
+      url: '/og-image.png',
+      width: 1200,
+      height: 630,
+      alt: 'Ideadora',
+    },
+  ],
+},
 
+twitter: {
+  card: 'summary_large_image',
+  images: ['/og-image.png'],
+},
 export default function RootLayout({
   children,
 }: Readonly<{
