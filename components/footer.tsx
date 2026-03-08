@@ -8,12 +8,12 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="flex flex-col gap-4">
             <Image
-              src="/images/ideadora-logo.png"
-              alt="Ideadora"
-              width={220}
-              height={55}
-              className="h-10 md:h-12 w-auto"
-            />
+  src="/images/ideadora-logo.png"
+  alt="Ideadora"
+  width={220}
+  height={55}
+  style={{ width: "180px", height: "auto" }}
+/>
 
             <div className="flex items-center gap-4">
               <a
