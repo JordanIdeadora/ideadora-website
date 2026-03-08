@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Ideadora | Brand-as-a-Service para Marketplaces en México',
   description: 'Ideadora construye tu marca, tus productos y tus tiendas en línea en marketplaces como Amazon, Mercado Libre y Walmart Marketplace. Todo hecho para ti.',
-  generator: 'v0.app',
+  generator: 'Ideadora',
   icons: {
     icon: [
       {
