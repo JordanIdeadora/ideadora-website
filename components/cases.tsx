@@ -60,13 +60,13 @@ export function Cases() {
               {/* Visual area */}
               <div className={`h-52 bg-gradient-to-br ${caseItem.color} flex items-center justify-center p-6`}>
                 {caseItem.logo ? (
-                  <div className="flex items-center justify-center rounded-xl bg-white p-6 shadow-sm">
+                  <div className="flex items-center justify-center rounded-xl bg-white p-8 shadow-md">
                     <Image
                       src={caseItem.logo}
                       alt={caseItem.name}
                       width={200}
                       height={100}
-                      className="h-auto w-48 object-contain"
+                      className="h-auto w-56 object-contain"
                     />
                   </div>
                 ) : (
