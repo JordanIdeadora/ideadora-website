@@ -22,9 +22,9 @@ const cases = [
     name: "Clean Fresh & Cat",
     category: "Arena premium para gatos",
     description: "Desarrollamos la marca Clean Fresh & Cat para marketplaces, desde la identidad visual y empaque hasta la creación de imágenes de producto y contenido comercial para venta online.",
-    color: "from-yellow-400/20 to-emerald-500/20",
-    iconBg: "bg-yellow-500/10",
-    iconColor: "text-yellow-600",
+    color: "from-orange-100 to-yellow-100",
+iconBg: "bg-orange-100",
+iconColor: "text-orange-600",
     logo: "/images/clean-fresh-cat-logo.png",
     link: "https://www.mercadolibre.com.mx/arena-premium-para-gatos-aglutinante-sin-polvo-9kg-lavanda/up/MLMU3839167537",
   },
@@ -60,7 +60,7 @@ export function Cases() {
               className="group relative overflow-hidden rounded-2xl border border-border bg-card transition-all hover:border-primary/40 hover:shadow-lg"
             >
               {/* Visual area */}
-              <div className={`h-52 bg-gradient-to-br ${caseItem.color} flex items-center justify-center p-6`}>
+              <div className="flex items-center justify-center h-40 rounded-xl bg-white p-6 shadow-sm">
                 {caseItem.logo ? (
                   <div className="flex items-center justify-center rounded-xl bg-white p-8 shadow-md">
                     <Image
@@ -68,7 +68,7 @@ export function Cases() {
                       alt={caseItem.name}
                       width={200}
                       height={100}
-                      className="h-auto w-56 object-contain"
+                      className="max-h-20 w-auto object-contain"
                     />
                   </div>
                 ) : (
