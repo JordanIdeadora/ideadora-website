@@ -13,7 +13,7 @@ const cases = [
     name: "Natural Snacks",
     category: "Snacks naturales para mascotas",
     description: "Creamos una marca de snacks deshidratados para mascotas, desarrollamos desde la idea de producto hasta su lanzamiento en marketplaces.",
-    color: "from-pink-500/20 to-rose-500/20",
+    color: "from-green-200/40 to-emerald-300/30",
     iconBg: "bg-pink-500/10",
     iconColor: "text-pink-600",
     logo: "/images/woofwoof-logo.png",
