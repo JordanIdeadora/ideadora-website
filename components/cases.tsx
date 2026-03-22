@@ -26,6 +26,7 @@ const cases = [
     iconBg: "bg-yellow-500/10",
     iconColor: "text-yellow-600",
     logo: "/images/clean-fresh-cat-logo.png",
+    link: "https://www.mercadolibre.com.mx/arena-premium-para-gatos-aglutinante-sin-polvo-9kg-lavanda/up/MLMU3839167537",
   },
   {
     name: "Ideastore",
@@ -88,7 +89,7 @@ export function Cases() {
                 </p>
                 
                 <a
-                  href="#"
+                  href={caseItem.link}
                   className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
                 >
                   Ver caso
