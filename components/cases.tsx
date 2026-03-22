@@ -36,6 +36,7 @@ const cases = [
     iconBg: "bg-primary/10",
     iconColor: "text-primary",
     logo: "/images/ideastore-logo.png",
+    link: "https://www.mercadolibre.com.mx/pagina/ideastore",
   },
 ]
 
