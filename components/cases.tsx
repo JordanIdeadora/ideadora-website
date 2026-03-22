@@ -60,18 +60,18 @@ export function Cases() {
               className="group relative overflow-hidden rounded-2xl border border-border bg-card transition-all hover:border-primary/40 hover:shadow-lg"
             >
               {/* Visual area */}
-              <div className="flex items-center justify-center h-40 rounded-xl bg-white p-6 shadow-sm">
-                {caseItem.logo ? (
-                  <div className="flex items-center justify-center rounded-xl bg-white p-8 shadow-md">
-                    <Image
-                      src={caseItem.logo}
-                      alt={caseItem.name}
-                      width={200}
-                      height={100}
-                      className="max-h-20 w-auto object-contain"
-                    />
-                  </div>
-                ) : (
+<div className={`flex items-center justify-center rounded-xl bg-gradient-to-br ${caseItem.color} p-6`}>
+              {caseItem.logo ? (
+  <div className="flex h-44 w-full items-center justify-center rounded-xl bg-white p-6 shadow-sm">
+    <Image
+      src={caseItem.logo}
+      alt={caseItem.name}
+      width={200}
+      height={100}
+      className="max-h-28 w-auto object-contain"
+    />
+  </div>
+) : (
                   <div className={`flex h-20 w-20 items-center justify-center rounded-2xl ${caseItem.iconBg || "bg-muted"}`}>
                     <span className={`text-3xl font-bold ${caseItem.iconColor || "text-muted-foreground"}`}>
                       {caseItem.name.charAt(0)}
